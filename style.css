@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid grey;
+    max-width: 500px;
+    padding-bottom: 12px;
+    border-radius: 12px;
+    padding-inline: 8px;
+    background-color: rgba(17, 16, 16, 0.041);
+}
+.sign-in {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    gap: 10px;
+}
+.sign-in h4:last-child {
+    color: lightseagreen
+}
+.forgot-your-password {
+    color: lightseagreen;
+}
+.forgot-your-password a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+button {
+    border: none;
+    background-color: lightseagreen;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+.button-parent-div {
+    width: 100%;
+}
+.icons {
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    justify-content: center;
+}
+.emailPassword {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.emailPassword input {
+    width: 100%;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.sign-in-with {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
