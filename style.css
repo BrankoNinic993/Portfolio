@@ -20,6 +20,7 @@ body {
     align-items: center;
     margin: 0;
     padding: 10px;
+    border: 1px solid black;
     gap: 10px;
 }
 .sign-in h4:last-child {
