@@ -23,6 +23,27 @@
     width: 400px;
     justify-content: space-between;
 }
+.link-header a {
+    color: black;
+    text-decoration: none;
+}
+.link-header a:last-child {
+    border: 5px solid black;
+    border-radius: 100%;
+    color: white;
+    background-color: black;
+}
 .right-elements {
     width: 850px;
+}
+.social-networks {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.social-networks a {
+    color: white;
+    border: 5px solid black;
+    border-radius: 100%;
+    background-color: black;
+    text-decoration: none;
 }
