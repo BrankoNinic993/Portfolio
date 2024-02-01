@@ -17,12 +17,12 @@
 }
 .right-element-image {
     width: 100%;
-    height: 500px;
+    height: 100%;
     border-radius: 5%;
 }
 .link-header {
     display: flex;
-    max-width: 450px;
+    max-width: 100%;
     width: 400px;
     justify-content: space-between;
 }
@@ -32,7 +32,7 @@
 }
 
 .right-elements {
-    width: 850px;
+    width: 1400px;
 }
 .social-networks {
     display: flex;
