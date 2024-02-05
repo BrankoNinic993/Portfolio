@@ -1,19 +1,36 @@
 .parent-element {
   display: flex;
+  gap: 10px;
 }
 .left-elements {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: radial-gradient(
-    rgba(35, 156, 189, 0.7) 5%,
-    rgba(88, 50, 168, 0.7) 40%,
-    transparent 70%,
-    white 90%
-  );
+  background: linear-gradient(160deg, rgb(153, 154, 158), rgb(153, 154, 158));
   width: 100%;
   border-radius: 5%;
   box-shadow: 8px 8px 16px grey;
+}
+
+div.left-elements-headings {
+  padding-inline: 10px;
+  width: 100%;
+}
+div.left-elements-headings > h2 {
+  color: white;
+  line-height: 2.25rem;
+  font-size: 2rem;
+}
+div.left-elements-headings > h1 {
+  width: 100%;
+  font-size: 3.25rem;
+  color: white;
+}
+
+h1.heading-with-multiple-elements {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .header {
   display: flex;
