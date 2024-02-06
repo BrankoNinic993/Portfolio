@@ -11,7 +11,7 @@
 2. refactor your code in '.social-networks' div because it is not very well written. First link's href attribute doesn't lead to any page and that is why we use '#' inside it if we don't wanna to make it lead us anywhere beside this page (odradjeno). More on that later...
 3. every social media icon should also be a link to a proper URL (use '#' for now). (odradjeno) Wrap the icon in link tag.
 4. add gap between icons.(odradjeno) Remember one of the combination the 'gap' is used with is 'flex'
-5. re-style 'See my work' button. Make it look like rectangular with curved borders around corners. Do not forgett to add a little bit of padding from all sides.
+5. re-style 'See my work' button. Make it look like rectangular with curved borders around corners. Do not forgett to add a little bit of padding from all sides. Make font larger and more readable.
 6. make icons larger so it's more appealing to user's eye.
 
 ### NAVIGATION MENU
