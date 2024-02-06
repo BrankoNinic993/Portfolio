@@ -11,7 +11,6 @@
   border-radius: 5%;
   box-shadow: 8px 8px 16px grey;
 }
-
 div.left-elements-headings {
   padding-inline: 10px;
   width: 100%;
@@ -26,7 +25,6 @@ div.left-elements-headings > h1 {
   font-size: 3.25rem;
   color: white;
 }
-
 h1.heading-with-multiple-elements {
   width: 100%;
   display: flex;
@@ -36,32 +34,38 @@ h1.heading-with-multiple-elements {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.right-element-image {
-  width: 100%;
-  height: 100%;
-  border-radius: 5%;
+  padding: 10px;
 }
 .link-header {
   display: flex;
   max-width: 100%;
   width: 400px;
   justify-content: space-between;
+  font-size: 25px;
+  padding: 40px;
 }
 .link-header a {
   color: black;
   text-decoration: none;
 }
-
+.link-header a:hover {
+  background-color: rgb(153, 154, 158);
+  transition: 0.25s;
+}
 .right-elements {
   width: 1400px;
+}
+.right-element-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
 }
 .social-networks {
   display: flex;
   gap: 15px;
-  margin: 10px;
-  margin-bottom: 20px;
-  padding: 10px;
+  margin: 20px;
+  margin-bottom: 50px;
+  padding: 30px;
 }
 .social-networks a {
   color: black;
@@ -69,5 +73,14 @@ h1.heading-with-multiple-elements {
   background-color: white;
   border: 1px solid white;
   border-radius: 100%;
-  padding: 5px;
+  padding: 30px;
+}
+.social-networks a:hover {
+  background-color: rgb(153, 154, 158);
+  transition: 0.25s;
+}
+.social-networks a.see {
+  border: 1px solid rgba(233, 225, 225, 0.959);
+  padding: 30px;
+  border-radius: 25%;
 }
