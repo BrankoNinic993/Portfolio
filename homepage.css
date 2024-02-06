@@ -65,7 +65,7 @@ h1.heading-with-multiple-elements {
   gap: 15px;
   margin: 20px;
   margin-bottom: 50px;
-  padding: 30px;
+  padding: 10px;
 }
 .social-networks a {
   color: black;
@@ -74,6 +74,7 @@ h1.heading-with-multiple-elements {
   border: 1px solid white;
   border-radius: 100%;
   padding: 30px;
+  font-size: 40px;
 }
 .social-networks a:hover {
   background-color: rgb(153, 154, 158);
