@@ -17,5 +17,5 @@
 ### NAVIGATION MENU
 1. make menu links larger and make them change their background-color to rgb(153, 154, 158) when user hovers over it. Apply transition of 0.25s duration to hover effect. --- ODRADJENO
 2. add some padding to link elements. X-padding should be a little bit larger then Y-padding. --- ODRADJENO
-3. when user clicks on one of the link elements it should change the color of font to 'rgb(13, 223, 52)';
+3. when user clicks on one of the link elements it should change the color of font to 'rgb(13, 223, 52)'; --- ODRADJENO
 4. links in the navigation menu should be bolded by default. --- ODRADJENO
