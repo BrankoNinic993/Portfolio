@@ -4,6 +4,8 @@
 
 ![image](https://github.com/BrankoNinic993/Portfolio/assets/95103431/ab64c8eb-70e2-495e-83c2-cf776689743b) --- ODRADJENO
 
+1. Create responsive design for Homepage section (explore css responsive design on internet).
+
 ### Introduction Part:
 
 1. curve the edges using border-radius (odradjeno) and add a little bit of shadow in the outer parts (odradjeno) and add some padding (odradjeno),
@@ -25,3 +27,5 @@
 2. add some padding to link elements. X-padding should be a little bit larger then Y-padding.
 3. when user clicks on one of the link elements it should change the color of font to 'rgb(13, 223, 52)';
 4. links in the navigation menu should be bolded by default.
+5. on hover add more padding
+6. created hamburger menu and make it appear on certain page width. For now ignore the activation of that menu. We will do it later using JavaScript.
