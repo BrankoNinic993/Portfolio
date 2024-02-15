@@ -4,13 +4,13 @@
 
 ![image](https://github.com/BrankoNinic993/Portfolio/assets/95103431/ab64c8eb-70e2-495e-83c2-cf776689743b) --- ODRADJENO
 
-1. Create responsive design for Homepage section (explore css responsive design on internet).
+1. Create responsive design for Homepage section (explore css responsive design on internet). --- ODRADJENO
 
 ### Introduction Part:
 
-1. curve the edges using border-radius (odradjeno) and add a little bit of shadow in the outer parts (odradjeno) and add some padding (odradjeno),
-2. change background color to be more similar to the one in Clickup image (odradjeno) (explore gradients as new css features)
-3. check for typos in your headings (odradjeno) and change it to 'h1' --- ODRADJENO
+1. curve the edges using border-radius and add a little bit of shadow in the outer parts and add some padding --- ODRADJENO
+2. change background color to be more similar to the one in Clickup image (explore gradients as new css features) --- ODRADJENO
+3. check for typos in your headings and change it to 'h1' --- ODRADJENO
 
 ### Social Media Links Part:
 
@@ -23,9 +23,9 @@
 
 ### NAVIGATION MENU
 
-1. make menu links larger and make them change their background-color to rgb(153, 154, 158) when user hovers over it. Apply transition of 0.25s duration to hover effect.
-2. add some padding to link elements. X-padding should be a little bit larger then Y-padding.
-3. when user clicks on one of the link elements it should change the color of font to 'rgb(13, 223, 52)';
-4. links in the navigation menu should be bolded by default.
-5. on hover add more padding
+1. make menu links larger and make them change their background-color to rgb(153, 154, 158) when user hovers over it. Apply transition of 0.25s duration to hover effect. --- ODRADJENO
+2. add some padding to link elements. X-padding should be a little bit larger then Y-padding. --- ODRADJENO
+3. when user clicks on one of the link elements it should change the color of font to 'rgb(13, 223, 52)' --- ODRADJENO
+4. links in the navigation menu should be bolded by default. --- ODRADJENO
+5. on hover add more padding --- ODRADJENO
 6. created hamburger menu and make it appear on certain page width. For now ignore the activation of that menu. We will do it later using JavaScript.
