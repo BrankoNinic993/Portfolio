@@ -1,3 +1,7 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 .parent-element {
   display: flex;
   gap: 10px;
@@ -7,8 +11,8 @@
   flex-direction: column;
   justify-content: space-between;
   background: linear-gradient(160deg, rgb(153, 154, 158), rgb(153, 154, 158));
-  width: 100%;
-  border-radius: 5%;
+  width: 50%;
+  border-radius: 25px;
   box-shadow: 8px 8px 16px grey;
 }
 div.left-elements-headings {
@@ -41,7 +45,7 @@ h1.heading-with-multiple-elements {
   max-width: 100%;
   width: 400px;
   justify-content: space-between;
-  font-size: 1.5rem;
+  font-size: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
@@ -54,67 +58,85 @@ h1.heading-with-multiple-elements {
 .link-header a:hover {
   background-color: rgb(153, 154, 158);
   transition: 0.25s;
-  padding-inline: 10px;
 }
 .link-header a:focus {
   color: rgb(13, 223, 52);
 }
 .right-elements {
-  width: 1200px;
+  width: 50%;
 }
 .right-element-image {
   width: 100%;
-  height: auto;
-  border-radius: 5%;
+  height: 100%;
+  border-radius: 25px;
 }
 .social-networks {
   display: flex;
   gap: 15px;
   margin: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   padding: 10px;
 }
-.social-networks a {
+
+.social-networks a i{
+  font-size: 1.8em;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
   color: black;
-  text-decoration: none;
   background-color: white;
-  border-radius: 100%;
-  padding: 30px;
-  font-size: 3rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 50%;
+  line-height: 50px;
 }
+
 .social-networks a:hover {
   background-color: rgb(153, 154, 158);
   transition: 0.25s;
-  padding-inline: 40px;
 }
+
 .social-networks a:focus {
   color: rgb(13, 223, 52);
 }
+
 .social-networks a.see {
+  border: 1px solid rgba(233, 225, 225, 0.959);
+  padding: 30px;
   border-radius: 25%;
 }
-@media only screen and (max-width: 600px) {
+
+@media screen and (max-width: 1024px){
   .parent-element {
+    display: flex;
     flex-direction: column;
   }
-  .left-elements, .right-elements {
+
+  .left-elements, .right-elements{
     width: 100%;
+    border-radius: 0px;
   }
-  .link-header {
-    width: 100%;
-    max-width: none;
+  .right-element-image{
+    border-radius: 0px;
   }
+  .social-networks {
+    display: flex;
+    gap: 15px;
+    margin: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    align-items: center;
 }
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  .parent-element {
-    flex-direction: row;
+}
+@media screen and (max-width: 769px){
+  .social-networks a i{
+    font-size: 1.4em;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  
   }
-  .left-elements, .right-elements {
-    width: 50%;
-  }
-  .link-header {
-    width: 100%;
-    max-width: none;
-  }
+  .social-networks a.see {
+    font-size: .7em;
+}
 }
