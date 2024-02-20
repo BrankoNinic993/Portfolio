@@ -28,4 +28,4 @@
 3. when user clicks on one of the link elements it should change the color of font to 'rgb(13, 223, 52)' --- ODRADJENO
 4. links in the navigation menu should be bolded by default. --- ODRADJENO
 5. on hover add more padding --- ODRADJENO
-6. created hamburger menu and make it appear on certain page width. For now ignore the activation of that menu. We will do it later using JavaScript.
+6. created hamburger menu and make it appear on certain page width. For now ignore the activation of that menu. We will do it later using JavaScript. --- ODRADJENO
