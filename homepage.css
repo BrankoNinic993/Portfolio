@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 .parent-element {
   display: flex;
   gap: 10px;
@@ -7,8 +11,8 @@
   flex-direction: column;
   justify-content: space-between;
   background: linear-gradient(160deg, rgb(153, 154, 158), rgb(153, 154, 158));
-  width: 100%;
-  border-radius: 5%;
+  width: 60%;
+  border-radius: 25px;
   box-shadow: 8px 8px 16px grey;
 }
 div.left-elements-headings {
@@ -22,7 +26,7 @@ div.left-elements-headings > h2 {
 }
 div.left-elements-headings > h1 {
   width: 100%;
-  font-size: 3.25rem;
+  font-size: 2.25rem;
   color: white;
 }
 h1.heading-with-multiple-elements {
@@ -59,12 +63,12 @@ h1.heading-with-multiple-elements {
   color: rgb(13, 223, 52);
 }
 .right-elements {
-  width: 1400px;
+  width: 40%;
 }
 .right-element-image {
   width: 100%;
   height: 100%;
-  border-radius: 5%;
+  border-radius: 25px;
 }
 .social-networks {
   display: flex;
@@ -73,15 +77,18 @@ h1.heading-with-multiple-elements {
   margin-bottom: 50px;
   padding: 10px;
 }
-.social-networks a {
+.social-networks a i {
+  font-size: 1.8em;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
   color: black;
-  text-decoration: none;
   background-color: white;
-  border: 1px solid white;
-  border-radius: 100%;
+  border-radius: 50%;
+  line-height: 50px;
+  margin-top: 10px;
   padding: 30px;
-  font-size: 40px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .social-networks a:hover {
   background-color: rgb(153, 154, 158);
@@ -91,7 +98,100 @@ h1.heading-with-multiple-elements {
   color: rgb(13, 223, 52);
 }
 .social-networks a.see {
-  border: 1px solid rgba(233, 225, 225, 0.959);
+  font-size: 1.3em;
+  display: inline-block;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 10px;
   padding: 30px;
-  border-radius: 25%;
+}
+.hamburger-menu {
+  display: none;
+  font-size: 50px;
+  cursor: pointer;
+}
+.nav-menu {
+  display: flex;
+  max-width: 100%;
+  width: 400px;
+  justify-content: space-between;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media screen and (max-width: 1024px) {
+  .parent-element {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-elements,
+  .right-elements {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .right-element-image {
+    border-radius: 0px;
+  }
+  .social-networks {
+    display: flex;
+    gap: 15px;
+    margin: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 769px) {
+  .social-networks a i {
+    font-size: 1.4em;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+  .social-networks a.see {
+    font-size: 0.7em;
+    max-height: 35px;
+  }
+  .hamburger-menu {
+    display: block;
+    width: fit-content;
+  }
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    z-index: 1;
+  }
+  .nav-menu a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* ovaj link-header moras da uklonis takodje kako ne bi zauzimao bezveze mjesto u DOM-u i stvarao ti problem sa UI */
+  .link-header {
+    display: none;
+  }
+  .header {
+    /* flex-direction: column;  ovo postavlja elemente jedan ispod drugog*/
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+  }
 }
